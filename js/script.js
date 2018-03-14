@@ -11,6 +11,6 @@ if (value > 0) {
 } else {
     console.log('Wynik to ' + value);
 }
-
- var value = ( value > 0) ? 'Wynik jest równy 0' : 'Wynik nie jest równy 0';
- console.log(value);
+console.log(value);
+var text = (value === 0) ? 'Wynik jest równy 0' : 'Wynik nie jest równy 0';
+console.log(text);
